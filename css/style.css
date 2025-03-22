@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-/* The Top Class */
+/* The top Class */
 .top {
     color: #F9FAF8;
     background-color: #1F2937;
@@ -78,7 +78,38 @@ body {
     font-size: 48px;
 }
 
+/* The Mid-top Class */
+
 .mid-top {
    background-color: white;
+   text-align: center;
+   font-family: "Roboto", sans-serif;
 }
 
+.mid-top-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.mid-top-container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-left: 1%;
+    margin-bottom: 8%;
+}
+
+.mid-top-placeholder {
+    color: white;
+    border-color: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    width: 150px;
+    height: 150px;
+}
+
+.mid-top-text {
+    width: 150px;
+}
