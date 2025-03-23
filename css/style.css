@@ -113,3 +113,28 @@ body {
 .mid-top-text {
     width: 150px;
 }
+
+/* The mid-bot Class */
+
+.mid-bot {
+    background-color: #E5E7Eb;
+    font-family: "Roboto", sans-serif;
+}
+
+.mid-bot-container {
+    font-size: 36px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+    font-size: 22px;
+    font-weight: 700;
+}
